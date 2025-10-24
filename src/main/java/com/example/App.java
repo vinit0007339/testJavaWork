@@ -1,13 +1,11 @@
 package com.example;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello from testJavaWork!");
-        if (args.length > 0) {
-            System.out.println("Args:");
-            for (String a : args) {
-                System.out.println(" - " + a);
-            }
-        }
+        SpringApplication.run(App.class, args);
     }
 }

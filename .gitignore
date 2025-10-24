@@ -1,2 +1,6 @@
 /out
 *.class
+target/
+# Don't ignore maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
